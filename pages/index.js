@@ -74,13 +74,10 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    Great for your awesome project
+                    Great place for awesome projects
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages
-                    presentation to login areas, you can easily customise and
-                    built your pages.
+                    Visit our common space in the 11th district
                   </p>
                 </blockquote>
               </div>
@@ -95,12 +92,12 @@ export default function Index() {
                         <i className="fas fa-sitemap"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        CSS Components
+                        Research
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
+{/*                       <p className="mb-4 text-blueGray-500">
                         Notus NextJS comes with a huge number of Fully Coded CSS
                         components.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
@@ -109,12 +106,12 @@ export default function Index() {
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        JavaScript Components
+                        Community
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
+{/*                       <p className="mb-4 text-blueGray-500">
                         We also feature many dynamic components for React,
                         NextJS, Vue and Angular.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -124,11 +121,11 @@ export default function Index() {
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Pages</h6>
-                      <p className="mb-4 text-blueGray-500">
+                      <h6 className="text-xl mb-1 font-semibold">Cowroking</h6>
+{/*                       <p className="mb-4 text-blueGray-500">
                         This extension also comes with 3 sample pages. They are
                         fully coded so you can start working instantly.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
@@ -137,12 +134,12 @@ export default function Index() {
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Documentation
+                        Exhibitions
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
+{/*                       <p className="mb-4 text-blueGray-500">
                         Built by developers for developers. You will love how
                         easy is to to work with Notus NextJS.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -154,7 +151,7 @@ export default function Index() {
         
 
           <div className="flex flex-wrap items-center pt-32">
-            <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
+            {/* <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
                   <a
@@ -251,9 +248,9 @@ export default function Index() {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+            {/* <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-drafting-compass text-xl"></i>
               </div>
@@ -303,7 +300,7 @@ export default function Index() {
                 View all{" "}
                 <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
