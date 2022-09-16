@@ -27,7 +27,7 @@ const IndexDropdown = () => {
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
-        Demo Pages
+        Our projects
       </a>
       <div
         ref={popoverDropdownRef}
@@ -41,46 +41,17 @@ const IndexDropdown = () => {
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          Admin Layout
+          3D
         </span>
-        <Link href="/admin/dashboard">
+        <Link href="https://urbanum-lab.github.io/tehereloszto/index.html">
           <a
-            href="#pablo"
+            target="_blank"
+            rel="noopener,noreferrer"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Dashboard
-          </a>
-        </Link>
-        <Link href="/admin/settings">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Settings
-          </a>
-        </Link>
-        <Link href="/admin/tables">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Tables
-          </a>
-        </Link>
-        <Link href="/admin/maps">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Maps
+            Teherelosztó
           </a>
         </Link>
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
@@ -89,26 +60,39 @@ const IndexDropdown = () => {
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          Auth Layout
+          Data vizualization
         </span>
-        <Link href="/auth/login">
+        <Link href="https://urbanum-lab.github.io/overpass/index.html">
           <a
-            href="#pablo"
+            target="_blank"
+            rel="noopener,noreferrer"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Login
+            Overpass API
           </a>
         </Link>
-        <Link href="/auth/register">
+        <Link href="https://urbanum-lab.github.io/wekeo_demos/l6.html">
           <a
-            href="#pablo"
+            target="_blank"
+            rel="noopener,noreferrer"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Register
+            Budapest suare meter prices
+          </a>
+        </Link>
+        <Link href="https://urbanum-lab.github.io/wekeo_demos/temperature_l7.html">
+          <a
+            target="_blank"
+            rel="noopener,noreferrer"
+            className={
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+            }
+          >
+            Budapest temperature
           </a>
         </Link>
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
@@ -117,26 +101,17 @@ const IndexDropdown = () => {
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          No Layout
+          Research
         </span>
-        <Link href="/landing">
+        <Link href="https://urbanum-lab.github.io/wekeo_notebook/fundus.html">
           <a
-            href="#pablo"
+            target="_blank"
+            rel="noopener,noreferrer"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Landing
-          </a>
-        </Link>
-        <Link href="/profile">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Profile
+            WEkEO Notebook
           </a>
         </Link>
       </div>
