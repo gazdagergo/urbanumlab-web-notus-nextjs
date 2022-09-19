@@ -60,7 +60,7 @@ const IndexDropdown = () => {
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          Data vizualization
+          Data visualization
         </span>
         <Link href="https://urbanum-lab.github.io/overpass/index.html">
           <a
@@ -81,7 +81,7 @@ const IndexDropdown = () => {
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Budapest suare meter prices
+            Budapest square meter prices
           </a>
         </Link>
         <Link href="https://urbanum-lab.github.io/wekeo_demos/temperature_l7.html">

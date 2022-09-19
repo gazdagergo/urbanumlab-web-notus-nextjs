@@ -74,10 +74,10 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    Great place for awesome projects
+                  Where digital urbanism has a space.
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Visit our common space in the 11th district
+                    Visit us at <a className="font-bold" href="http://urbanum.hu/contact/">Forum Urbanum!</a>
                   </p>
                 </blockquote>
               </div>
@@ -89,29 +89,27 @@ export default function Index() {
                   <div className="relative flex flex-col mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-sitemap"></i>
+                        <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Research
                       </h6>
-{/*                       <p className="mb-4 text-blueGray-500">
-                        Notus NextJS comes with a huge number of Fully Coded CSS
-                        components.
-                      </p> */}
+                      <p className="mb-4 text-blueGray-500">
+                        Turning data and computer science into urban value. Urban analytics, digital architecture and many more!
+                      </p>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-drafting-compass"></i>
+                        <i className="fas fa-users"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Community
                       </h6>
-{/*                       <p className="mb-4 text-blueGray-500">
-                        We also feature many dynamic components for React,
-                        NextJS, Vue and Angular.
-                      </p> */}
+                      <p className="mb-4 text-blueGray-500">
+                        City is network, with people at its heart. Meet us at our meetups!
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -119,27 +117,27 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-newspaper"></i>
+                        <i className="fas fa-coffee"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Cowroking</h6>
-{/*                       <p className="mb-4 text-blueGray-500">
-                        This extension also comes with 3 sample pages. They are
-                        fully coded so you can start working instantly.
-                      </p> */}
+                      <h6 className="text-xl mb-1 font-semibold">
+                        Coworking
+                      </h6>
+                      <p className="mb-4 text-blueGray-500">
+                        A place to exchange ideas and, in turn, let those ideas change the city.
+                      </p>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-file-alt"></i>
+                        <i className="fas fa-image"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Exhibitions
                       </h6>
-{/*                       <p className="mb-4 text-blueGray-500">
-                        Built by developers for developers. You will love how
-                        easy is to to work with Notus NextJS.
-                      </p> */}
+                      <p className="mb-4 text-blueGray-500">
+                        City is representation, accessible and shapeable by everyone. Step closer!
+                      </p>
                     </div>
                   </div>
                 </div>
